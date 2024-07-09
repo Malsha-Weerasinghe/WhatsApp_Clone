@@ -1,8 +1,8 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import BackgroundImg from '../../assets/svg/loading_background.svg'
-import LOGO from '../../assets/svg/logo_1.svg'
-import TextLogo from '../../components/BaseUi/textLogo'
+import BackgroundImg from '../../../assets/svg/loading_background.svg'
+import LOGO from '../../../assets/svg/logo_1.svg'
+import TextLogo from '../../../components/BaseUi/textLogo'
 
 const LoadingPage = () => {
   return (
