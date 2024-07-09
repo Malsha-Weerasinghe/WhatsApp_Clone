@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     fontSize: 35,
     fontWeight: "500",
     marginTop: 12,
-    // fontFamily: "Roboto",
+    
   },
   textLogoViewStyle: {
     position: "absolute",
