@@ -46,10 +46,10 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
   },
   contentStyle: {
-    paddingTop: 70,
-    paddingHorizontal: 90,
+    paddingTop: 80,
+    paddingHorizontal: 60,
     display: "flex",
-    gap: 15,
+    gap: 20,
   },
 
   countryButtonView: {
