@@ -6,6 +6,7 @@ import { StatusBar } from 'expo-status-bar';
 import OTPPage from '@/components/Pages/LoginPage/OTPPage';
 import LoginPage from '@/components/Pages/LoginPage/LoginPage';
 import HomePage from '@/components/Pages/HomePage/HomePage';
+import CardItem from '@/components/Pages/HomePage/CardItem';
 
 
 export default function index() {
@@ -15,7 +16,8 @@ export default function index() {
       {/* <WelcomePage/> */}
       {/* <LoginPage/> */}
       {/* <OTPPage/> */}
-      <HomePage/>
+      {/* <HomePage/> */}
+      <CardItem/>
       {/* <StatusBar style="auto"/> */}
     </View>
   );
