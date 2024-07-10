@@ -2,7 +2,7 @@ import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 import { Avatar } from "react-native-paper";
 
-const CardItem = ({ name, lastText, time }: any) => {
+const CardItemTest = ({ name, lastText, time }: any) => {
   return (
     <View style={styles.root}>
       <Avatar.Image
@@ -27,7 +27,7 @@ const CardItem = ({ name, lastText, time }: any) => {
   );
 };
 
-export default CardItem;
+export default CardItemTest;
 
 const styles = StyleSheet.create({
   root: {

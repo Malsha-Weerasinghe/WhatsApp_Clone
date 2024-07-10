@@ -6,7 +6,7 @@ import { StatusBar } from 'expo-status-bar';
 import OTPPage from '@/components/Pages/LoginPage/OTPPage';
 import LoginPage from '@/components/Pages/LoginPage/LoginPage';
 import IconPage from '@/components/Pages/HomePageTest/IconPage';
-import CardItem from '@/components/Pages/HomePageTest/CardItem';
+import CardItem from '@/components/Pages/HomePageTest/CardItemTest';
 import Example from '@/components/Pages/HomePageTest/Example';
 
 

@@ -3,9 +3,9 @@ import { Button, Title, Paragraph } from "react-native-paper";
 import { Tabs, TabScreen, TabsProvider, useTabIndex, useTabNavigation } from "react-native-paper-tabs";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Appbar } from "react-native-paper";
-import CardItem from "./CardItem";
+import CardItem from "./CardItemTest";
 
-const cardItems = [
+const CardItemTest = [
   { id: 1, name: "Test 1", lastText: "Hey there tell", time: "5:27 PM" },
   { id: 2, name: "Test 2", lastText: "Not doing anything", time: "Yesterday" },
   { id: 3, name: "Test 3", lastText: "Hey there", time: "Yesterday" },
@@ -79,7 +79,7 @@ function Example() {
         </Tabs>
       </TabsProvider>
       <ScrollView style={{}}>
-        {cardItems.map((item) => (
+        {CardItemTest.map((item) => (
           <CardItem key={item.id} {...item} />
         ))}
       </ScrollView>
