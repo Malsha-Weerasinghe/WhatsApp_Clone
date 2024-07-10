@@ -12,8 +12,8 @@ export default function index() {
     <View style={styles.container}>
        {/* <LoadingPage/>  */}
       {/* <WelcomePage/> */}
-      {/* <OTPPage/> */}
-      <LoginPage/>
+      <OTPPage/>
+      {/* <LoginPage/> */}
       {/* <StatusBar style="auto"/> */}
     </View>
   );
