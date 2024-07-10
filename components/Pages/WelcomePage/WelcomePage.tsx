@@ -14,7 +14,7 @@ const WelcomePage = () => {
           <Text style={styles.linkStyle} onPress={() => {}}>
             Privacy Policy.
           </Text>{" "}
-          Tap "Agree and continue to accept the{" "}
+          Tap Agree and continue to accept the{" "}
           <Text style={styles.linkStyle} onPress={() => {}}>
             Terms of Service.
           </Text>

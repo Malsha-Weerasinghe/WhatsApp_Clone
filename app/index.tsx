@@ -3,13 +3,15 @@ import React from 'react'
 import LoadingPage from '@/components/Pages/LoadingPage/LoadingPage'
 import WelcomePage from '@/components/Pages/WelcomePage/WelcomePage';
 import { StatusBar } from 'expo-status-bar';
+import OTPPage from '@/components/Pages/OTPPage/OTPPage';
 
 
 export default function index() {
   return (
     <View style={styles.container}>
        {/* <LoadingPage/>  */}
-      <WelcomePage/>
+      {/* <WelcomePage/> */}
+      <OTPPage/>
       {/* <StatusBar style="auto"/> */}
     </View>
   );
