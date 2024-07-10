@@ -9,7 +9,6 @@ const OTPPage = () => {
           <Appbar.Header
             style={{
               backgroundColor: "#fff",
-              //   elevation: 9,
             }}
           >
             <Appbar.BackAction onPress={() => {}} />
