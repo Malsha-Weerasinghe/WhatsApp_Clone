@@ -2,7 +2,7 @@ import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 import { Appbar } from "react-native-paper";
 
-const HomePage = () => {
+const IconPage = () => {
   return (
     <View>
       <Appbar.Header>
@@ -16,6 +16,6 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default IconPage;
 
 const styles = StyleSheet.create({});
