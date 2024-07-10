@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
     fontSize: 14,
     borderBottomWidth: 0.5,
     borderBottomColor: "#00A884",
-    paddingHorizontal: 10,
+    paddingHorizontal: 9,
     letterSpacing: 1.2,
   },
 

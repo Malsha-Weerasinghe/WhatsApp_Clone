@@ -4,6 +4,7 @@ import LoadingPage from '@/components/Pages/LoadingPage/LoadingPage'
 import WelcomePage from '@/components/Pages/WelcomePage/WelcomePage';
 import { StatusBar } from 'expo-status-bar';
 import OTPPage from '@/components/Pages/LoginPage/OTPPage';
+import LoginPage from '@/components/Pages/LoginPage/LoginPage';
 
 
 export default function index() {
@@ -11,7 +12,8 @@ export default function index() {
     <View style={styles.container}>
        {/* <LoadingPage/>  */}
       {/* <WelcomePage/> */}
-      <OTPPage/>
+      {/* <OTPPage/> */}
+      <LoginPage/>
       {/* <StatusBar style="auto"/> */}
     </View>
   );
