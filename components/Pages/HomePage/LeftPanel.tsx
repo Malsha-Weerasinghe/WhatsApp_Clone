@@ -1,6 +1,6 @@
 import { Avatar, Box, IconButton, Input } from "@mui/material";
-import CustomAppBar from "../../../foundation/CustomAppBar/CustomAppBar";
-import CustomMenuButton from "../../../foundation/CustomMenuButton/CustomMenuButton";
+import CustomAppBar from "../Foundation/CustomAppBar/CustomAppBar";
+import CustomMenuButton from "../../../oundation/CustomMenuButton/CustomMenuButton";
 import { leftPanelMenuItem } from "../../../constants/constant";
 import ChatIcon from "@mui/icons-material/Chat";
 import DonutLargeIcon from "@mui/icons-material/DonutLarge";
