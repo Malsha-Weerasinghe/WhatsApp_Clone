@@ -1,13 +1,13 @@
 import { Avatar, Box, IconButton, Input } from "@mui/material";
 import CustomAppBar from "../../../foundation/CustomAppBar/CustomAppBar";
 import CustomMenuButton from "../../../foundation/CustomMenuButton/CustomMenuButton";
-import { leftPanelMenuItem } from "./utils/constant";
+import { leftPanelMenuItem } from "../../../constants/constant";
 import ChatIcon from "@mui/icons-material/Chat";
 import DonutLargeIcon from "@mui/icons-material/DonutLarge";
 import ChatCard from "../../Pages/Foundation/ChatCard/ChatCard";
 import FilterListIcon from "@mui/icons-material/FilterList";
 import SearchIcon from "@mui/icons-material/Search";
-import { ChatCardType } from "./utils/LeftPanel.types";
+import { ChatCardType } from "../../../constants/LeftPanel.types";
 
 const localChats: ChatCardType[] = [
   {
@@ -181,9 +181,9 @@ export default function LeftPanel() {
           background: "#101b20",
         }}
       >
-        {localChats.map((item: ChatCardType) => {
+        {/* {localChats.map((item: ChatCardType) => {
           return <ChatCard item={item} />;
-        })}
+        })} */}
         <Box pt="50px" />
       </Box>
     </Box>
