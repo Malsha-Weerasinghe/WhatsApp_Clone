@@ -80,7 +80,7 @@ const Page = () => {
             onOptionPress={onSegmentChange}
           />
           <View style={styles.headerRight} />
-          <Ionicons name="call" size={24} color={Colors.primary} />
+          <Ionicons name="call-outline" color={Colors.primary} size={24} />
         </View>
         <Text style={styles.headerTitle}>Calls</Text>
         <ScrollView
@@ -149,11 +149,11 @@ const Page = () => {
         </ScrollView>
         <View style={styles.bottomBar}>
           <TouchableOpacity style={styles.bottomBarItem}>
-            <Ionicons name="refresh" size={24} color={Colors.gray} />
+          <Ionicons name="refresh" size={24} color={Colors.gray} />
             <Text style={styles.bottomBarText}>Updates</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.bottomBarItem}>
-            <Ionicons name="call" size={24} color={Colors.primary} />
+          <Ionicons name="call-outline" size={24} color={Colors.primary} style={styles.bottomBarIcon} />
             <Text style={styles.bottomBarText}>Calls</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.bottomBarItem}>
@@ -221,6 +221,9 @@ const styles = StyleSheet.create({
   bottomBarText: {
     fontSize: 12,
     color: Colors.gray,
+  },
+  bottomBarIcon: {
+    marginHorizontal: 20,
   },
 });
 export default Page;

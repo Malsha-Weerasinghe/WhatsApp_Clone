@@ -5,13 +5,11 @@ import WelcomePage from '@/components/Pages/WelcomePage/WelcomePage';
 import { StatusBar } from 'expo-status-bar';
 import OTPPage from '@/components/Pages/LoginPage/OTPPage';
 import LoginPage from '@/components/Pages/LoginPage/LoginPage';
-import IconPage from '@/components/Pages/HomePageTest/IconPage';
-import CardItem from '@/components/Pages/HomePageTest/CardItemTest';
-import Example from '@/components/Pages/HomePageTest/Example';
 import AppleStyleSwipeableRow from '@/components/Pages/Chat/AppleStyleSwipeableRow';
 import ChatMessageBox from '@/components/Pages/Chat/ChatMessageBox';
 import NewChat from '@/components/Pages/NewChat/new-chat';
 import CallPage from '@/components/Pages/Call/CallPage';
+import HomePage from '@/components/Pages/HomePage/HomePage';
 
 
 export default function index() {
@@ -21,13 +19,9 @@ export default function index() {
       {/* <WelcomePage/> */}
       {/* <LoginPage/> */}
       {/* <OTPPage/> */}
-      {/* <IconPage/> */}
-      {/* <CardItem/> */}
-      {/* <Example/> */}
-      {/* <AppleStyleSwipeableRow/> */}
-      {/* <ChatMessageBox/> */}
       {/* <NewChat/> */}
-      <CallPage/>
+      <HomePage/>
+      {/* <CallPage/> */}
       {/* <StatusBar style="auto"/> */}
     </View>
   );
