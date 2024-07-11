@@ -1,50 +1,46 @@
-# Welcome to your Expo app 👋
+Loading Page
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![Screenshot_2024-07-09-21-31-39-970_host exp exponent](https://github.com/Malsha-Weerasinghe/WhatsApp_Clone/assets/125721000/a5aa38cc-5a98-4849-803e-df5a2d33bdda)
 
-## Get started
 
-1. Install dependencies
 
-   ```bash
-   npm install
-   ```
+Welcome Page
 
-2. Start the app
+![Screenshot_2024-07-09-23-45-57-417_host exp exponent](https://github.com/Malsha-Weerasinghe/WhatsApp_Clone/assets/125721000/52a3cf2f-f782-404b-b9f6-e186b078c451)
 
-   ```bash
-    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Login Page
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+![Screenshot_2024-07-10-12-47-56-782_host exp exponent](https://github.com/Malsha-Weerasinghe/WhatsApp_Clone/assets/125721000/fdb53f60-fd5d-41ba-a549-2e9ffab176ef)
 
-## Get a fresh project
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
+OTP Page
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+![Screenshot_2024-07-10-14-19-52-424_host exp exponent](https://github.com/Malsha-Weerasinghe/WhatsApp_Clone/assets/125721000/98f7765e-dce3-4462-bb05-f4bd339d9076)
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+HomePage
 
-## Join the community
+![Screenshot_2024-07-11-21-01-46-577_host exp exponent](https://github.com/Malsha-Weerasinghe/WhatsApp_Clone/assets/125721000/bfab5861-f1e2-45d0-ab49-79ae72ac17fd)
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+New Chat Page
+
+![Screenshot_2024-07-11-12-53-04-566_host exp exponent](https://github.com/Malsha-Weerasinghe/WhatsApp_Clone/assets/125721000/3d910774-aa64-4029-8e35-cdd9802e100b)
+
+
+
+Call Screen
+
+![Screenshot_2024-07-11-20-44-27-145_host exp exponent](https://github.com/Malsha-Weerasinghe/WhatsApp_Clone/assets/125721000/21dc6a4b-56cd-4ec0-90b2-7fe93fc7bcda)
+
+
+
+Chat Screen
+
+![Screenshot_2024-07-11-21-54-26-261_host exp exponent](https://github.com/Malsha-Weerasinghe/WhatsApp_Clone/assets/125721000/dece60f5-27e8-4d62-af01-f444424c58b9)
+
