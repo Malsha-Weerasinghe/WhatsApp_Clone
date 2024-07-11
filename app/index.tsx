@@ -8,6 +8,9 @@ import LoginPage from '@/components/Pages/LoginPage/LoginPage';
 import IconPage from '@/components/Pages/HomePageTest/IconPage';
 import CardItem from '@/components/Pages/HomePageTest/CardItemTest';
 import Example from '@/components/Pages/HomePageTest/Example';
+import AppleStyleSwipeableRow from '@/components/Pages/Chat/AppleStyleSwipeableRow';
+import ChatMessageBox from '@/components/Pages/Chat/ChatMessageBox';
+import NewChat from '@/components/Pages/NewChat/new-chat';
 
 
 export default function index() {
@@ -19,7 +22,10 @@ export default function index() {
       {/* <OTPPage/> */}
       {/* <IconPage/> */}
       {/* <CardItem/> */}
-      <Example/>
+      {/* <Example/> */}
+      {/* <AppleStyleSwipeableRow/> */}
+      {/* <ChatMessageBox/> */}
+      <NewChat/>
       {/* <StatusBar style="auto"/> */}
     </View>
   );
