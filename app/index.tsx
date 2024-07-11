@@ -11,6 +11,7 @@ import Example from '@/components/Pages/HomePageTest/Example';
 import AppleStyleSwipeableRow from '@/components/Pages/Chat/AppleStyleSwipeableRow';
 import ChatMessageBox from '@/components/Pages/Chat/ChatMessageBox';
 import NewChat from '@/components/Pages/NewChat/new-chat';
+import CallPage from '@/components/Pages/Call/CallPage';
 
 
 export default function index() {
@@ -25,7 +26,8 @@ export default function index() {
       {/* <Example/> */}
       {/* <AppleStyleSwipeableRow/> */}
       {/* <ChatMessageBox/> */}
-      <NewChat/>
+      {/* <NewChat/> */}
+      <CallPage/>
       {/* <StatusBar style="auto"/> */}
     </View>
   );

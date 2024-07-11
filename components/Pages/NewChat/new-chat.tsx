@@ -103,8 +103,8 @@ const styles = StyleSheet.create({
   listItemContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    paddingVertical: 18, // Adjusted padding here
-    paddingHorizontal: 35, // Adjusted padding here
+    paddingVertical: 18, 
+    paddingHorizontal: 35, 
     backgroundColor: '#fff',
     borderBottomWidth: 1,
     borderBottomColor: '#eee',
