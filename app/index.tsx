@@ -10,6 +10,7 @@ import ChatMessageBox from '@/components/Pages/Chat/ChatMessageBox';
 import NewChat from '@/components/Pages/NewChat/new-chat';
 import CallPage from '@/components/Pages/Call/CallPage';
 import HomePage from '@/components/Pages/HomePage/HomePage';
+import ChatScreen from '@/components/Pages/ChatScreen/ChatScreen';
 
 
 export default function index() {
@@ -20,8 +21,9 @@ export default function index() {
       {/* <LoginPage/> */}
       {/* <OTPPage/> */}
       {/* <NewChat/> */}
-      <HomePage/>
+      {/* <HomePage/> */}
       {/* <CallPage/> */}
+      <ChatScreen/>
       {/* <StatusBar style="auto"/> */}
     </View>
   );
