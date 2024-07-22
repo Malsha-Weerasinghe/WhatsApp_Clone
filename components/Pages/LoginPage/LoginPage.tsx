@@ -1,8 +1,12 @@
 import { Pressable, SafeAreaView, StyleSheet, Text, TextInput, View } from 'react-native'
 import React from 'react'
 import Dropdown from '../../../assets/svg/dropdown.svg'
+import { useNavigation } from '@react-navigation/native';
 
 const LoginPage = () => {
+
+  const navigation = useNavigation();
+
   return (
     <SafeAreaView style={styles.root}>
       <View style={styles.contentStyle}>
@@ -27,7 +31,7 @@ const LoginPage = () => {
         </View>
       </View>
       <Pressable
-        onPress={() => {}}
+        onPress={() => {navigation.navigate('OTPPage')}}
         style={styles.buttonStyle}>
         <Text style={styles.buttonTextStyle}>Next</Text>
       </Pressable>

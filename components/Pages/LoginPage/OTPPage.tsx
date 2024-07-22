@@ -2,8 +2,13 @@ import { Pressable, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { Appbar } from 'react-native-paper';
 import OTPTextInput from "react-native-otp-textinput";
+import { useNavigation } from '@react-navigation/native';
+import { Link, router } from 'expo-router';
 
 const OTPPage = () => {
+
+  const navigation = useNavigation();
+  
     return (
         <View style={styles.root}>
           <Appbar.Header
@@ -11,7 +16,7 @@ const OTPPage = () => {
               backgroundColor: "#fff",
             }}
           >
-            <Appbar.BackAction onPress={() => {}} />
+            <Appbar.BackAction onPress={() => {navigation.navigate('LoginPage')}} />
             <Appbar.Content title="Enter OTP Code" />
           </Appbar.Header>
           <View style={styles.mainStyle}>
@@ -25,7 +30,7 @@ const OTPPage = () => {
               </Text>
             </View>
             <Pressable
-              onPress={() => {}}
+              onPress={() => {navigation.navigate('HomePage')}}
               style={styles.buttonStyle}
             >
               <Text style={styles.buttonTextStyle}>Verify</Text>

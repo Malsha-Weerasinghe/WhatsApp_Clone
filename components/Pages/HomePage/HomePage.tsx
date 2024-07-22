@@ -6,8 +6,12 @@ import chats from '@/assets/data/chats.json';
 import ChatRow from '../Chat/ChatRow';
 import { defaultStyles } from '@/constants/Styles';
 import Colors from '@/constants/Colors';
+import { useNavigation } from '@react-navigation/native';
 
-const Page = () => {
+const HomePage = () => {
+
+  const navigation = useNavigation();
+
   return (
     <GestureHandlerRootView style={styles.container}>
       <View style={styles.header}>
@@ -133,4 +137,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Page;
+export default HomePage;

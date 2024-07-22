@@ -9,7 +9,13 @@ export default function RootLayout() {
       options={{
         headerShown: false,
       }} />
+
+<Stack.Screen name="HomePage"
+      options={{
+        headerShown: false,
+      }} />
     </Stack>
+    
   );
 }
 

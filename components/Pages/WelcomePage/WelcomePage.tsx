@@ -2,8 +2,12 @@ import { Button, Pressable, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import WelcomeArt from '../../../assets/svg/welcome_page_art.svg'
 import TextLogo from '../../../components/BaseUi/textLogo'
+import { useNavigation } from '@react-navigation/native';
 
 const WelcomePage = () => {
+
+  const navigation = useNavigation();
+
   return (
     <View style= {styles.root}>
     <View style= {styles.contentStyle}>
@@ -20,7 +24,7 @@ const WelcomePage = () => {
           </Text>
         </Text>
         <Pressable
-          onPress={() => {}}
+          onPress={() => {navigation.navigate('LoginPage')}}
           style={styles.buttonStyle}
         >
           <Text style={styles.buttonTextStyle}>AGREE AND CONTINUE</Text>
