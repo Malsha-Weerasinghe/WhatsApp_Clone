@@ -22,7 +22,7 @@ OTP Page
 
 
 
-HomePage
+Home Page
 
 ![Screenshot_2024-07-11-21-01-46-577_host exp exponent](https://github.com/Malsha-Weerasinghe/WhatsApp_Clone/assets/125721000/bfab5861-f1e2-45d0-ab49-79ae72ac17fd)
 
